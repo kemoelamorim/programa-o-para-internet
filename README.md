@@ -1,2 +1,2 @@
-# programa-o-para-internet
+# programacao-para-internet
 Aulas de programação para Internet
