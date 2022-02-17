@@ -1,0 +1,1 @@
+const Elementos = document.querySelector('.titulo')
