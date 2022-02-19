@@ -1,0 +1,170 @@
+body {
+	background-color: #F2F5F7;
+	font-family: 'Open Sans',Arial,sans-serif;
+}
+
+.cabecalhoPrincipal {
+    background-color: #FFF;
+    padding: 20px 0;
+   
+}
+.container {
+	width: 75%;
+	margin: 0 auto;
+}
+
+.cabecalhoPrincipal-titulo {
+	font-weight: bold;
+	font-size: 2em;
+}
+
+.cabecalhoPrincipal-titulo a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.cabecalhoPrincipal-nav-link {
+	padding: 10px;
+	color: #9799A6;
+	background-color: #FFF;
+	text-decoration: none;
+	display: block;
+	border: 1px solid #9799A6;
+    border-radius: 6px;
+}
+
+.cabecalhoPrincipal .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cabecalhoPrincipal-nav{
+    display: flex;
+}
+.cabecalhoPrincipal-nav-link{
+    margin-left: 6px;
+
+}
+/* main */
+.conteudoPrincipal {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	
+}
+.sobreCurso{
+    padding: 20px 0 40px 0;
+}
+.imgEstudante{
+    height: 380px;
+    width: 570px;
+    box-shadow: 4px 4px 4px #CCC;
+    
+}
+.container .conteudoPrincipal-curso .conteudoPrincipal-ADS{
+    flex-direction: column;
+    text-align: center;
+}
+.titulo {
+    font-size: 32px;
+    
+    
+}
+.subtitulo{
+    color: #9799A6;
+    margin-bottom: 10px;
+}
+.container .conteudoPrincipal-curso{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.exemplo{
+    background-color: #9799A6;
+    padding: 40px 0;
+}
+.container .videoPratico{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+.aprendizado{
+    text-align: center
+}
+
+.localizaCampos{
+    padding: 40px 0 20px 0;
+}
+.container .ifscGaspar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mapa{
+    box-shadow: 4px 4px 4px #CCC;
+}
+
+.rodape{
+    padding: 60px 0;
+    background-color: #edeeed;
+}
+.rodape .container{
+    display: flex;
+    align-items: center;
+    
+}
+footer .rodape .intituicao{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 70%;
+    margin-right: 5%;
+    
+}
+.cursos{
+    margin-top: 10px;
+}
+
+
+.rodapePrincipal-contatoForm {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.rodapePrincipal-contatoForm label {
+	font-weight: bold;
+	font-size: 14px;
+	color: #000;
+	margin-bottom: 5px;
+	display: block;
+}
+
+.rodapePrincipal-contatoForm-emailInput {
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	padding: 10px;
+}
+
+.rodapePrincipal-contatoForm-submit {
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	background-color: #4DBA7A;
+	color: #FFF;
+	cursor: pointer;
+	
+}
+
+.rodapePrincipal-contatoForm-submit,
+.rodapePrincipal-contatoForm-emailInput {
+	outline: 0;
+	border: 1px solid #4DBA7A;
+	box-sizing: border-box;
+	font-size: 16px;
+}
+.rodapePrincipal-contatoForm-fieldset{
+    display: flex;
+}
